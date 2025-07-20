@@ -1,20 +1,16 @@
 import React from "react";
 import Header from "./components/Header/Header";
-import Gradecalculator from "./components/GradeCalculator/GradeCalculator";
+import GradeCalculator from "./components/GradeCalculator/GradeCalculator";
 
-const App=()=>{
-  const marks=73;
 
-  return(
-   <>
-    <Header />
-    <Gradecalculator marks={marks} />
-   </>
-)
-}
+const App = () => {
+  const marks=88;
+  return (
+    <>
+      <Header />
+      <GradeCalculator marks={marks} />
+    </>
+  );
+};
 
 export default App;
-
-
-
-
